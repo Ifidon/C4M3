@@ -1,0 +1,51 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+section {
+	background: #817E7D;
+	border: 2px solid black;
+
+}
+section p:nth-child(1) {
+	font-size: 1.5em;
+	
+}
+
+section p:nth-child(2){
+
+	padding: 15px;
+	
+}
+#brand {
+	color: #f8f9f9;
+}
+
+#header-nav {
+	background-color: #C70039;
+	border-radius: 0px;
+	border: 0px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand h1 {
+	margin: 0px;
+}
+
+#menu-list a {
+	font-size: 1.2em;
+	color: Black;
+	text-align: center;
+}
+
+#menu-list{
+	background: grey;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
