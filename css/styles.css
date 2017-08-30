@@ -1,8 +1,14 @@
+/*
 body {
 	font-size: 16px;
 	color: #fff;
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
+}
+*/
+
+h2 {
+	margin: 30px;
 }
 
 section {
@@ -21,11 +27,11 @@ section p:nth-child(2){
 	
 }
 #brand {
-	color: #f8f9f9;
+	color: #000000;
 }
 
 #header-nav {
-	background-color: #C70039;
+	background-color: #817E7D ;
 	border-radius: 0px;
 	border: 0px;
 }
@@ -38,14 +44,25 @@ section p:nth-child(2){
 
 #menu-list a {
 	font-size: 1.2em;
-	color: Black;
+	color: black;
 	text-align: center;
 }
 
 #menu-list{
-	background: grey;
+	background: #DAF7A6;
 }
 
 .navbar-header button.navbar-toggle {
 	clear: both;
+}
+
+button.navbar-toggle {
+	border: solid #000000;
+	border-width: 1px;
+	background-color: white;
+}
+
+span.icon-bar {
+	border: solid #000000;
+	border-width: 1px;
 }
